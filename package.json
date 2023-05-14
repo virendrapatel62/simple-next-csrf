@@ -1,0 +1,35 @@
+{
+  "name": "simple-next-csrf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virendrapatel62/simple-next-csrf.git"
+  },
+  "keywords": [
+    "next",
+    "csrf",
+    "next-csrf",
+    "protection"
+  ],
+  "author": "virendra patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/virendrapatel62/simple-next-csrf/issues"
+  },
+  "homepage": "https://github.com/virendrapatel62/simple-next-csrf#readme",
+  "devDependencies": {
+    "@types/cookies": "^0.7.7",
+    "@types/node": "^20.1.4",
+    "tsc": "^2.0.4"
+  },
+  "dependencies": {
+    "cookies": "^0.8.0",
+    "csrf": "^3.1.0",
+    "next": "^13.4.2"
+  }
+}
