@@ -5,3 +5,4 @@ build/
 !build/
 src/
 test/
+examples/
