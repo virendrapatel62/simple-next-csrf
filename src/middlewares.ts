@@ -52,7 +52,7 @@ const configureMiddleware = (args: ArgsOfConfigureMiddleware) => {
       const token = cookies[CSRF_TOKEN_NAME];
 
       if (!token || !validateToken(token, secret)) {
-        return response.json(getErrorReponse());
+        return response.status(401).json(getErrorReponse());
       }
 
       await handle();
