@@ -3,7 +3,9 @@
   "version": "1.0.3",
   "description": "",
   "main": "dist/index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/virendrapatel62/simple-next-csrf.git"
@@ -23,7 +25,7 @@
   "devDependencies": {
     "@types/cookies": "^0.7.7",
     "@types/node": "^20.1.4",
-    "tsc": "^2.0.4"
+    "typescript": "^5.0.4"
   },
   "dependencies": {
     "cookies": "^0.8.0",
